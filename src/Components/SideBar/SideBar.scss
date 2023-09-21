@@ -1,0 +1,48 @@
+.container{
+    background-color: #141313;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    flex-shrink: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    padding-top: 4rem;
+    padding-left: 3.5rem;
+}
+
+.container div{
+    color: #FFF;
+    display: block;
+    padding-bottom: 6.25rem;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container a{
+    color: white;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    text-decoration: none;
+    opacity: 70%;
+}
+.container a:hover{
+    opacity: 100%;
+}
+
+.links{
+    padding-top: 3.25rem;
+}
+.links a{
+    padding-bottom: 12px;
+    font-size: 22px;
+    opacity: 70%;
+}
+.links a:hover{
+    opacity: 100%;
+}

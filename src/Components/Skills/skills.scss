@@ -1,0 +1,62 @@
+.skillContainer{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    // margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #000000;
+   
+}
+
+.skillContainerChild{
+    border: 1px solid white;
+    background: #1A1A1A;
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+
+.whatIDO{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 5%;
+    color: #D43F52;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logos{
+    padding: 2rem;
+    color: gray;
+}
+.logos label{
+    padding: 1.5rem;
+    font-size: 3.3rem;
+}
+.java :hover{
+    color: #73A1FB;
+}.javascript :hover{
+    color: #F7D800;
+}.html :hover{
+    color: #DD4B25;
+}.css :hover{
+    color: #0052E6;
+}.sass :hover{
+    color: #CF6C9C;
+}.react :hover{
+    color: #00D3F7;
+}.npm :hover{
+    color: #BB2026;
+}.docker :hover{
+    color: #1C60E6;
+}.git :hover{
+    color: #E84D31;
+}.sql :hover{
+    color: #42759C;
+}.mongo :hover{
+    color: #55A54D;
+}

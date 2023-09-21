@@ -1,0 +1,93 @@
+.main{
+    // border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+}
+
+.info{
+    // margin-top: 12%;
+}
+
+.name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    color: #D43F52;
+}
+.role{
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #34374C;
+}
+.description{
+    margin-top: 2%;
+    padding-left: 21%;
+    padding-right: 17%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+.profile{
+    margin-top: 2%;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.profile a{
+    padding: 10px;
+    color: #3E3939;
+}
+
+.linkedin :hover{
+    color: #0A66C2;
+}.github :hover{
+    color: white;
+}.twitter :hover{
+    color: white;
+}.hashnode :hover{
+    color: #0A66C2;
+}.leetcode :hover{
+    color: #E3AA3A;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button{
+}
+
+.buttons button{
+    margin-top: 3%;
+    float: left;
+    font-size: medium;
+    padding: 14px 10%;
+    background-color: #D43F52;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    margin-left: 3%;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.buttons button:hover{
+    
+    background-color: white;
+    color: #D43F52;
+    
+}

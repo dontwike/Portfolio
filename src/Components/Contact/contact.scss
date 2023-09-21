@@ -1,0 +1,95 @@
+.main{
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    
+}
+
+.myInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid white;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.myInfo label{
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.myInfo p{
+    color: gray;
+    font-size: large;
+}
+.myInfoChild {
+    padding: 10%;
+    margin: 10%;
+    // border: 1px solid white;
+}
+
+.yourInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid white;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10%;
+}
+.yourInfoChild {
+    // border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: -webkit-fill-available;
+}
+.yourInfoChild form{
+    width: -webkit-fill-available;
+}
+.yourInfoChild textarea{
+    font-size: large;
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 12px 60% 20% 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.yourInfoChild input{
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 12px 55% 12px 15px;
+    font-size: large;
+}
+.yourInfoChild button{
+    float: left;
+    font-size: medium;
+    padding: 14px 13%;
+    background-color: #D43F52;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    margin-left: 10%;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.yourInfoChild button:hover{
+    
+    background-color: white;
+    color: #D43F52;
+    
+}
