@@ -13,7 +13,9 @@ const Contact = () => {
                 <div className='myInfoChild'>
                     <label>CONTACT ME</label>
                     <p><BsFillPhoneFill style={{color:"#D43F52",  fontSize:"27px", marginRight:"10px"}}/> 9808407890</p>
-                    <p><MdEmail style={{color:"#D43F52", fontSize:"27px", marginRight:"10px"}}/> itspranjal00@gmail.com</p>
+                    <p><MdEmail style={{color:"#D43F52", fontSize:"27px", marginRight:"10px"}}/> 
+                    <a  href="mailto:itspranjal00@gmail.com">itspranjal00@gmail.com</a>
+                    </p>
                     <p><HiLocationMarker style={{color:"#D43F52", fontSize:"27px", marginRight:"10px"}}/> Ajabpur Khurd, Dehradun</p>
                 </div>
             </div>

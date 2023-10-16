@@ -1,9 +1,12 @@
 import React from 'react'
 import './skills.scss'
-import { FaCss3Alt, FaDocker, FaGitAlt, FaHtml5, FaJava, FaNpm, FaReact, FaSass } from 'react-icons/fa'
+import { FaCss3Alt, FaDocker, FaGitAlt, FaHtml5, FaJava, FaNodeJs, FaNpm, FaReact, FaSass } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
-import { SiMongodb, SiMysql } from 'react-icons/si'
-import Card from './Card.jsx'
+import { SiHibernate, SiMongodb, SiMysql } from 'react-icons/si'
+import { BiLogoSpringBoot } from 'react-icons/bi'
+import { TbBrandNextjs } from 'react-icons/tb'
+import Skill from './Skill'
+import Education from './Education'
 
 const Skills = () => {
     return (
@@ -11,7 +14,7 @@ const Skills = () => {
             <div className='skillContainerChild'>
                 <div className='all'>
                     <label className='whatIDO'>WHAT I DO</label>
-                    <p className='Des'>Full Stack Developer with a focus on Java, JavaScript</p>
+                    <div className='Des'>Full Stack Developer with a focus on Java, JavaScript</div>
                     <div className='logos'>
                         <label className='java'><FaJava /></label>
                         <label className='javascript'><IoLogoJavascript /></label>
@@ -24,10 +27,15 @@ const Skills = () => {
                         <label className='git'><FaGitAlt /></label>
                         <label className='sql'><SiMysql /></label>
                         <label className='mongo'><SiMongodb /></label>
+                        <label className='mongo'><BiLogoSpringBoot /></label>
+                        <label className='mongo'><FaNodeJs /></label>
+                        <label className='next'><TbBrandNextjs /></label>
+                        <label className='hibernate'><SiHibernate/></label>
                     </div>
                 </div>
             </div>
-            <Card />
+            <Skill/>
+            <Education/>
         </div>
     )
 }

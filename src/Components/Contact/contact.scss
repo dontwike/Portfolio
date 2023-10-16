@@ -27,6 +27,15 @@
     color: gray;
     font-size: large;
 }
+.myInfo a{
+    color: gray;
+    font-size: large;
+    text-decoration: none;
+}.myInfo a:hover{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
 .myInfoChild {
     padding: 10%;
     margin: 10%;

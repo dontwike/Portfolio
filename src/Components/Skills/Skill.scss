@@ -1,0 +1,35 @@
+.myskills{
+    margin-left: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 7%;
+}
+
+.skill{
+    width: 100%;
+}
+
+.skill-name{
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 5px;
+    width: 90%;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per{
+    height: 5px;
+    background: #d43f52;
+    border-radius: 3px;
+    position: relative;
+    width: 60%;
+}

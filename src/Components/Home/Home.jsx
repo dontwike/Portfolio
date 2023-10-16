@@ -4,9 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaXTwitter, FaHashnode } from 'react-icons/fa6'
 import { SiLeetcode } from 'react-icons/si'
 
-
-
 const Home = () => {
+
     return (
         <div className='main'>
             <div className='info'>
@@ -29,7 +28,9 @@ const Home = () => {
 
                 <div className='buttons'>
                     <button className='button'>Resume</button>
-                    <button className='button'>Contact</button>
+                    <button className='button' onClick={() => {
+                        window.location.href = '/contact';
+                    }}>Contact</button>
                 </div>
             </div>
         </div>

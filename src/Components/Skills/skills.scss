@@ -1,62 +1,82 @@
-.skillContainer{
+.skillContainer {
+  color: white;
+  width: 100%;
+  height: fit-content;
+  margin-left: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #000000;
+}
+
+.skillContainerChild {
+//   border: 1px solid white;
+  background: #1a1a1a;
+  width: 100%;
+  height: 50vh;
+  display: block;
+}
+
+.whatIDO {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 5%;
+  color: #d43f52;
+}
+
+.Des{
+    margin: 20px 0 30px 0;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logos {
+  padding-left: 2rem;
+  color: gray;
+}
+.logos label {
+  padding: 1.5rem;
+  font-size: 3.3rem;
+}
+.java :hover {
+  color: #73a1fb;
+}
+.javascript :hover {
+  color: #f7d800;
+}
+.html :hover {
+  color: #dd4b25;
+}
+.css :hover {
+  color: #0052e6;
+}
+.sass :hover {
+  color: #cf6c9c;
+}
+.react :hover {
+  color: #00d3f7;
+}
+.npm :hover {
+  color: #bb2026;
+}
+.docker :hover {
+  color: #1c60e6;
+}
+.git :hover {
+  color: #e84d31;
+}
+.sql :hover {
+  color: #42759c;
+}
+.mongo :hover {
+  color: #55a54d;
+}
+.next :hover{
     color: white;
-    width: 100%;
-    height: 100vh;
-    // margin-left: 15%;
-    display: flex;
-    flex-wrap: wrap;
-    background: #000000;
-   
 }
-
-.skillContainerChild{
-    border: 1px solid white;
-    background: #1A1A1A;
-    width: 100%;
-    height: 50vh;
-    display: block;
-}
-
-.whatIDO{
-    font-size: 2rem;
-    font-weight: 600;
-    padding-top: 5%;
-    color: #D43F52;
-}
-.all{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.logos{
-    padding: 2rem;
-    color: gray;
-}
-.logos label{
-    padding: 1.5rem;
-    font-size: 3.3rem;
-}
-.java :hover{
-    color: #73A1FB;
-}.javascript :hover{
-    color: #F7D800;
-}.html :hover{
-    color: #DD4B25;
-}.css :hover{
-    color: #0052E6;
-}.sass :hover{
-    color: #CF6C9C;
-}.react :hover{
-    color: #00D3F7;
-}.npm :hover{
-    color: #BB2026;
-}.docker :hover{
-    color: #1C60E6;
-}.git :hover{
-    color: #E84D31;
-}.sql :hover{
-    color: #42759C;
-}.mongo :hover{
-    color: #55A54D;
+.hibernate :hover{
+  color: #566369;
 }
